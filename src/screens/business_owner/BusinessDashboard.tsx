@@ -1,8 +1,6 @@
 import AppShell from "../../components/layout/AppShell"
 import {Upload, MessageSquare, ChevronRight} from "lucide-react"
 import { useNavigate } from "react-router-dom";
-import { useState } from "react";
-import { launchDemo } from "../../context/DemoContext";
 export default function BusinessDashboard() {
     const navigate = useNavigate();
 

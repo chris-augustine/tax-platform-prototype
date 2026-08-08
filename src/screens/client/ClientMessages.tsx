@@ -1,6 +1,5 @@
 import AppShell from "../../components/layout/AppShell";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { useSearchParams } from "react-router-dom";
 import { MessageSquare, Send } from "lucide-react";
 import { launchDemo } from "../../context/DemoContext";
